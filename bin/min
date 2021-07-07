@@ -9,3 +9,5 @@ groceries = {
 }
 
 puts get_the_min(groceries)
+
+groceries.values.flatten.min
